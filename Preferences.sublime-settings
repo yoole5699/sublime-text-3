@@ -1,0 +1,35 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Color Scheme - Default/Dawn.tmTheme",
+	"font_size": 15,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"folder_exclude_patterns":
+	 [
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules",
+		"bower_components"
+	],
+	"index_exclude_patterns":
+	[
+		"*.log",
+		"node_modules",
+		"*.conf"
+	],
+	"rulers":
+	[
+		80
+	],
+	"save_on_focus_lost": true,
+	"show_encoding": true,
+	"tab_size": 2,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}
