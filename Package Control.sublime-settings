@@ -5,14 +5,17 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"Alignment",
+		"ayu",
 		"Babel",
 		"BracketHighlighter",
+		"Codecs33",
 		"ConvertToUTF8",
 		"Emmet",
 		"GitGutter",
+		"Keymaps",
 		"Package Control",
-		"SideBarEnhancements",
-		"Theme - Soda"
+		"SideBarEnhancements"
 	]
 }
