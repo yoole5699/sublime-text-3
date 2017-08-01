@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+e.target.$1
+]]></content>
+    <tabTrigger>et</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: e.target.</description>
+</snippet>

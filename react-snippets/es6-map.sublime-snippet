@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+.map(${1:(value)} => {
+	$2
+})
+]]></content>
+    <tabTrigger>map</tabTrigger>
+    <scope>source.js</scope>
+    <description>es6: map</description>
+</snippet>

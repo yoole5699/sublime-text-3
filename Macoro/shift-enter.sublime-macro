@@ -1,0 +1,35 @@
+[
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args": null,
+		"command": "reindent"
+	},
+	{
+		"args":
+		{
+			"characters": "\t"
+		},
+		"command": "insert"
+	}
+]

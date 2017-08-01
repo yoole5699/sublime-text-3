@@ -1,4 +1,8 @@
 [
 	{ "keys": ["ctrl+/"], "command": "toggle_comment", "args": { "block": false } },
 	{ "keys": ["ctrl+1"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["ctrl+alt+e"], "command": "alignment" },
+	{ "keys": ["ctrl+shift+r"], "command": "reindent" , "args": {"single_line": false}},
+	{ "keys": ["alt+enter"], "command": "run_macro_file", "args": {"file":"Packages/User/Macoro/shift-enter.sublime-macro"} },
+	{	"keys": ["super+enter"], "command": "insert", "args": { "characters": "\n\n"} },
 ]
