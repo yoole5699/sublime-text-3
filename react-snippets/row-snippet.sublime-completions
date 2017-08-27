@@ -1,0 +1,21 @@
+{
+    "scope": "source.js",
+
+    "completions":
+    [
+      { "trigger": "imf", "contents": "import ${1:Component} from '${2:.}/$1';" },
+      { "trigger": "cv", "contents": "const ${1:variable} = ${2:undefined};" },
+      { "trigger": "lv", "contents": "let ${1:output} = ${2:undefined};" },
+      { "trigger": "et", "contents": "e.target.$1" },
+      { "trigger": "apa", "contents": "${1:onClick}={(e) => { $2 }}" },
+      { "trigger": "apf", "contents": "${2:${1:prop}}={this.$1}" },
+      { "trigger": "aps", "contents": "${1:key}=\"$2\"" },
+      { "trigger": "apv", "contents": "${1:key}={$2}" },
+      { "trigger": "cl", "contents": "console.log(${1:yoole}, '---yoole---');" },
+      { "trigger": "tp", "contents": "this.props.${1:data}" },
+      { "trigger": "ts", "contents": "this.state.${1:data}" },
+      { "trigger": "am", "contents": "${1:handle} = (${2:e}) => {\n\t$3\n}" },
+      { "trigger": "af", "contents": "${1:(data)} => {\n\t$2\n}" },
+      { "trigger": "re", "contents": "return (\n\t$1\n);" },
+    ]
+}

@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-const ${1:variable} = ${2:undefined};
-]]></content>
-    <tabTrigger>cv</tabTrigger>
-    <scope>source.js</scope>
-    <description>es6: const variables</description>
-</snippet>

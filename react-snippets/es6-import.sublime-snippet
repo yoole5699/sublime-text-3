@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-import ${1:Component} from '${2:.}/$1';
-]]></content>
-    <tabTrigger>imf</tabTrigger>
-    <scope>source.js</scope>
-    <description>es6: import-from</description>
-</snippet>
