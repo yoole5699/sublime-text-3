@@ -1,0 +1,6 @@
+[
+	{ "keys": ["ctrl+alt+e"], "command": "alignment" },
+	{ "keys": ["ctrl+alt+d"], "command": "add_date_stamp" },
+	{ "keys": ["ctrl+shift+r"], "command": "reindent" , "args": {"single_line": false}},
+	{	"keys": ["super+enter"], "command": "insert", "args": { "characters": "\n\n"} },
+]

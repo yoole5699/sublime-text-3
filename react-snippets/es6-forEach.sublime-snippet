@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:array}.forEach(${2:(value)} => {
+	$3
+})
+]]></content>
+    <tabTrigger>fe</tabTrigger>
+    <scope>source.js</scope>
+    <description>es6: forEach</description>
+</snippet>

@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+import * as actions from '../actions/$2';
+
+class ${1:${TM_FILENAME/(.+)\..+|.*/$1/}} extends React.Component {
+
+	${3:handle} = (e) => { 
+    $4
+  }$5
+
+	render() {
+		return (
+			${6:<div>${0}</div>}
+		);
+	}
+}
+
+const mapStateToProps = (state) => ({  });
+
+const mapDispatchToProps = (dispatch) => (bindActionCreators(actions, dispatch));
+
+export default connect(mapStateToProps, mapDidpatchToProps)(${1:${TM_FILENAME/(.+)\..+|.*/$1/}});
+]]></content>
+    <tabTrigger>rdc</tabTrigger>
+    <scope>source.js -(meta)</scope>
+    <description>React Redux: class state component</description>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react';
+import PropTypes from 'prop-types';
+$2
+
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/}} = ({ $3 }) => (
+	${4:<div>$5</div>}
+)
+
+${1:${TM_FILENAME/(.+)\..+|.*/$1/}}.propTypes = {
+  $6
+}
+
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/}};
+]]></content>
+    <tabTrigger>csl</tabTrigger>
+    <scope>source.js -(meta)</scope>
+    <description>React: stateless component</description>
+</snippet>

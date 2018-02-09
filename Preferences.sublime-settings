@@ -1,0 +1,50 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/ayu/ayu-light.tmTheme",
+	"draw_minimap_border": true,
+	"expand_tabs_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".hg",
+		"CVS",
+		"node_modules",
+		"bower_components"
+	],
+	"font_face": "Roboto Mono",
+	"font_size": 14,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"index_exclude_patterns":
+	[
+		"*.log",
+		"node_modules",
+		"*.conf"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"preview_on_click": false,
+	"remember_open_files": false,
+	"rulers":
+	[
+		100
+	],
+	"save_on_focus_lost": true,
+	"show_encoding": true,
+	"tab_size": 2,
+	"theme": "ayu-light.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"ui_big_tabs": true,
+	"ui_fix_tab_labels": true,
+	"ui_font_size_small": true,
+	"ui_font_source_code_pro": true,
+	"ui_separator": true,
+	"ui_sidebar_highlight_row": true,
+	"ui_wide_scrollbars": true,
+	"word_wrap": true
+}

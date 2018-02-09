@@ -1,0 +1,9 @@
+{
+    //自定义配置
+    "jsdocs_extra_tags": [
+    	"@Desc",	
+      "@Author yoole<wuyongle@meituan.com>",
+      "@Date {{datetime}}",
+    ],
+
+}

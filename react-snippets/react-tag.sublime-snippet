@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<${1:ReactTag}
+	${2:onClick}={$3}
+/>
+]]></content>
+    <tabTrigger>rt</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: Tag</description>
+</snippet>

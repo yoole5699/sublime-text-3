@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react';
+
+class ${1:${TM_FILENAME/(.+)\..+|.*/$1/}} extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			${2:name}: '',
+		};
+	}
+
+	${3:handle} = (e) => { 
+    $4
+  }$5
+
+	render() {
+		return (
+			${6:<div>${0}</div>}
+		);
+	}
+}
+
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/}};
+]]></content>
+    <tabTrigger>rcs</tabTrigger>
+    <scope>source.js -(meta)</scope>
+    <description>React: class state component</description>
+</snippet>

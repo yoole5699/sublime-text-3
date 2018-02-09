@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Alignment",
+		"ayu",
+		"Babel",
+		"BracketHighlighter",
+		"ColorPicker",
+		"ConvertToUTF8",
+		"Emmet",
+		"GitGutter",
+		"Keymaps",
+		"Package Control",
+		"Pug",
+		"SideBarEnhancements",
+		"Syntax Highlighting for PostCSS"
+	]
+}

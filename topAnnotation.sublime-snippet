@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @Desc
+ * @Author yoole <wuyongle@meituan.com>
+ * @Date ${1:ctrl+alt+d}
+ */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>yl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js -(meta)</scope>
+</snippet>
